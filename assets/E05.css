@@ -115,3 +115,7 @@ h1,h2,h3{letter-spacing:-.02em}
 .e5-footer .f-links a{color:var(--ink)}
 .e5-amb .amb{bottom:0;height:auto}.e5-amb .amb::after{background:rgba(0,0,0,.15)}
 @media (min-width:1040px){.e5-kv{justify-content:center}}
+.e5-ent-main .app-link{color:var(--ink)}
+.e5-ent-ph{align-self:stretch;min-height:260px}
+@media (min-width:1040px){.e5-ent-ph{grid-row:1;min-height:0}}
+@media (min-width:1040px){.e5-ent-ph{grid-column:-4/-1}}
